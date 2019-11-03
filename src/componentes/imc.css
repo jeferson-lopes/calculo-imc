@@ -1,0 +1,60 @@
+.Imc {
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.356);
+    background-color: #ffffff;
+}
+
+.divAltura {
+    max-width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.divPeso {
+    max-width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.botao {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #919191;
+    border: none;
+    border-radius: 10px;
+}
+
+.botao:hover {
+    background-color: #555;
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+    color: #919191;
+}
+
+h4 {
+    text-align: center;
+    color: #919191;
+}
+
+p {
+    margin-left: -100px;
+    color: #919191;
+}
+
+.input {
+    height: 30px;
+    text-indent: 10px;
+    border: none;
+    /* <-- This thing here */
+    border: solid 1px #ccc;
+    border-radius: 10px;
+}
